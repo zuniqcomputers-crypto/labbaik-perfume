@@ -3,51 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Labbaik Perfume | Exclusive Catalog</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <title>Labbaik | Future of Fragrance</title>
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Background AI Glow -->
-    <div class="glow-overlay"></div>
+    <!-- Layer 1: Ambient AI Glows -->
+    <div class="glow-point point-1"></div>
+    <div class="glow-point point-2"></div>
+
+    <!-- Layer 2: Scrolling Background Watermark -->
+    <div class="scrolling-text-container">
+        <div class="scrolling-text">
+            LUXURY • LABBAIK • FRAGRANCE • AI DRIVEN • TIMELESS • LUXURY • LABBAIK • FRAGRANCE • AI DRIVEN • TIMELESS
+        </div>
+    </div>
 
     <header>
         <div class="container">
-            <div class="logo-container">
-                <!-- Circular Animation Ring -->
-                <div class="orbit-ring"></div>
-                <img src="logo.png" alt="Labbaik Logo" class="main-logo">
+            <div class="logo-orbit-container">
+                <!-- The Multi-Color Neon Ring -->
+                <div class="neon-ring"></div>
+                <!-- Your Logo (Auto-corrected to white/glow) -->
+                <img src="logo.png" alt="Labbaik" class="premium-logo">
             </div>
-            <h1 class="brand-name">LABBAIK PERFUME</h1>
+            <div class="brand-reveal">
+                <span class="sub-heading">Advanced Scent Analytics</span>
+                <h1 class="main-title">LABBAIK PERFUME</h1>
+            </div>
         </div>
     </header>
 
-    <section class="hero-search">
+    <section class="search-experience">
         <div class="container">
-            <p class="intro-text">Search our exclusive collection of premium fragrances.</p>
-            <div class="search-glass-box">
-                <input type="text" id="perfumeSearch" placeholder="Type a perfume name (e.g. Ramza)..." autocomplete="off">
-                <div class="search-highlight"></div>
+            <div class="glass-input-wrapper">
+                <input type="text" id="perfumeSearch" placeholder="Describe your scent..." autocomplete="off">
+                <div class="input-glow"></div>
             </div>
-            <p id="counter" class="stats">Discovering 15 masterpieces</p>
+            <p id="counter" class="ai-status">Initializing Catalog...</p>
         </div>
     </section>
 
     <main class="container">
-        <div id="perfumeGrid" class="catalog-grid">
-            <!-- Data injected by script.js -->
+        <div id="perfumeGrid" class="luxury-grid">
+            <!-- Cards injected via JS -->
         </div>
         
-        <div id="emptyState" class="empty-state hidden">
-            <p>Scent not found. Please refine your search.</p>
+        <div id="emptyState" class="hidden">
+            <div class="empty-box">
+                <p>The requested fragrance is currently outside our digital parameters.</p>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p class="owner-tag">Curated by Rafiullah Khan</p>
-            <p class="copyright">© 2024 Labbaik Perfume. International Standard.</p>
+            <div class="footer-content">
+                <p class="owner-credit">Proprietary Concept by <span>Rafiullah Khan</span></p>
+                <p class="legal">© 2024 Labbaik Perfume. Global Distribution.</p>
+            </div>
         </div>
     </footer>
 
